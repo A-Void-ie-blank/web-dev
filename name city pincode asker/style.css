@@ -1,0 +1,12 @@
+.Name{
+    color: white;
+    background-color: red;
+}
+.City{
+    color: red;
+    background-color: white;
+}
+.City-Pincode{
+    color: maroon;
+    background-color: green;
+}
