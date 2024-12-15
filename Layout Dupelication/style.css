@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: x-large;
+}
+
+header {
+    background-color: purple;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    z-index: 1;
+}
+
+li {
+    display: inline;
+    padding: 7px;
+}
+.main{
+    background-color: black;
+
+}
+.boxes{
+    width: 80vw;
+    background-color: green;
+    position: relative;
+    left: 10vw;
+    right: 10vw;
+
+    padding: 8px;
+}
+.box2{
+    background-color:rgb(230, 151, 78) ;
+    position: relative;
+    margin:0 15px;
+    border: 2px solid black;
+    display: inline-block;
+    height: 90vh;
+    width: 45%;
+}
+
+.box1{
+    background-color: rgb(71, 104, 211);
+    position: relative;
+    margin:0 15px;
+    border: 2px solid black;
+    display: inline-block;
+    height: 90vh;
+    width: 45%;
+
+}
+.outro{
+    color: white;
+    text-align: center;
+    margin: 50px 58px;
+    border: 2px solid white;
+    border-radius: 50px;
+    
+}
+.outro > p {
+    font-size: 50px;
+}
+
+.logo{
+    height: 32px;
+    width: 32px;
+    background: orange;
+    position: fixed;
+    bottom: 12px;
+    right: 23px;
+    border-radius: 60px;
+}

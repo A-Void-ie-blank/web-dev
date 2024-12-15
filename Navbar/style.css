@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    position: relative;
+    top: 75px;
+    background-color: aqua;
+}
+:root{
+    --bgli: rgba(220, 20, 60, 0.534);
+    --coli: rgba(27, 82, 155, 0.849);
+}
+li{
+    background-color: var(--bgli);
+    color: var(--coli);
+    
+}
