@@ -36,7 +36,8 @@ li {
     border: 2px solid black;
     display: inline-block;
     height: 90vh;
-    width: 45%;
+    width: 40%;
+    min-width: 25%;
 }
 
 .box1{
@@ -46,7 +47,8 @@ li {
     border: 2px solid black;
     display: inline-block;
     height: 90vh;
-    width: 45%;
+    width: 40%;
+    min-height: 25%;
 
 }
 .outro{
@@ -66,7 +68,8 @@ li {
     width: 32px;
     background: orange;
     position: fixed;
-    bottom: 12px;
+    top: 2px;
     right: 23px;
     border-radius: 60px;
+    z-index: 2;
 }
